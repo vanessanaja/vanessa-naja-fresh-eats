@@ -1,3 +1,47 @@
-body {
-    background: #a1dae3 url("../media/webpacklogo.png") repeat;
+$primary-color: #b0d785;
+
+body { 
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+// header {
+//     // background-color: $primary-color;
+// }
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.how-it-works {
+    display: block;
+    padding: 100px;
+    background-color: $primary-color;
+}
+
+.menu {
+    // flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+div h4 {
+    position: absolute;
+    bottom: 18px;
+    left: 8px;
+    color: #000;
+    text-shadow: 2px 2px 1px rgba(242, 242, 242, 1);
+    font-size: 1.5rem;
+}
+
+.image {
+    display: flex;
+    flex-direction: row;
+    flex: 0 0 33%;
+    position: relative;
 }
