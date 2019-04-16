@@ -1,33 +1,87 @@
 $primary-color: #b0d785;
+$secondary-color: #84b252;
+$third-color: #e8f6d9;
 
 body { 
-    font-family: 'Merriweather', serif;
-}
-
-h1 {
     font-family: 'Montserrat', sans-serif;
 }
 
-// header {
-//     // background-color: $primary-color;
-// }
-
-.container {
-    display: flex;
-    flex-direction: row;
+p {
+    font-family: 'Merriweather', serif;
 }
 
-.how-it-works {
-    display: block;
-    padding: 100px;
+h2 {
+    width: 100%;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: $third-color;
+}
+
+input   {
+    display: inline-block;
+    margin: 7px;
+}
+
+li  {
+    list-style: none;;
+}
+
+nav li {
+    display: inline-block;
+    background-color: $primary-color;
+    border: 1px solid #000;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+a   {
+    color: #000;
+    text-decoration: none;
+}
+
+li:hover {
+    background-color: $secondary-color;
+}
+
+button  {
+    background-color: $secondary-color;
+    border: 1px solid #000;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button:hover {
     background-color: $primary-color;
 }
 
-.menu {
-    // flex-grow: 1;
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.how-it-works {
+    display: flex;
+    padding: 50px;
+    width: 40%;
+    background-color: $primary-color;
+}
+
+#menu {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    width: 60%;
+    height: 100%;
+    margin: 0px;
+    background-color: $secondary-color;
+    padding-left: 15px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 div h4 {
@@ -42,6 +96,24 @@ div h4 {
 .image {
     display: flex;
     flex-direction: row;
-    flex: 0 0 33%;
+    flex: 0 0 auto;
     position: relative;
+    width: 33.33%;
+    height: auto;
+    padding-bottom: 15px;
+}
+
+#plans  {
+    display: block;
+    padding: 25px;
+    background-color: $third-color;
+    text-align: center;
+    list-style: none;
+}
+
+#login {
+    display: block;
+    padding: 30px;
+    text-align: center;
+    background-color: $primary-color;
 }

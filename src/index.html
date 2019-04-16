@@ -13,46 +13,66 @@
         <div>
             <img src="./assets/media/logo/fresh-eats-logo.png" width="500px" alt="Fresh Eats logo">
         </div>
+        <nav>
+            <ul>
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#plans">Plans</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#login">Sign up/Login</a></li>
+            </ul>
+        </nav>
     </header>  
     <main>
         <div class='container'>
-            <div class='how-it-works'>
-                <h1>How it works</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
-                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div class='how-it-works' id="how-it-works">
+                <div>
+                    <h1>How it works</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>Morbi sit amet velit sem. Proin blandit placerat rhoncus. Pellentesque finibus tristique nulla vel pharetra. Pellentesque hendrerit, lectus non rhoncus tempus, est eros aliquet justo, a convallis velit felis nec quam. Vestibulum maximus posuere feugiat. Donec vel neque non erat malesuada tincidunt non at tellus. Aenean ac massa vel lacus maximus pellentesque porttitor eget justo. Vestibulum sit amet sem at nunc ultrices vehicula.</p>
+                </div>
             </div>
-            <div class='menu'>
+            <div id="menu">
+                <h2>Menu</h2>
                 <div class="image">
-                    <img src="./assets/media/images/vegan.jpg" alt="salad" width="300px" height="300px">
+                    <img src="./assets/media/images/vegan.jpg" alt="salad" width="250px" height="250px">
                     <h4>Vegan</h4>
                 </div>
                 <div class="image">
-                    <img src="./assets/media/images/vegetarian-egg-avocado-bread.jpg" alt="egg avocado bread" width="300px" height="300px">
+                    <img src="./assets/media/images/vegetarian-egg-avocado-bread.jpg" alt="egg avocado bread" width="250px" height="250px">
                     <h4>Vegitarian</h4>
                 </div>
                 <div class="image">
-                    <img src="./assets/media/images/gluten-free2.jpg" alt="steak burger and fish small plate" width="300px" height="300px">
+                    <img src="./assets/media/images/gluten-free2.jpg" alt="steak burger and fish small plate" width="250px" height="250px">
                     <h4>Gluten Free</h4>
                 </div>
                 <div class="image">
-                    <img src="./assets/media/images/keto.jpg" alt="steak and vegetables" width="300px" height="300px">
+                    <img src="./assets/media/images/keto.jpg" alt="steak and vegetables" width="250px" height="250px">
                     <h4>Paleo</h4>
                 </div>
                 <div class="image">
-                    <img src="./assets/media/images/kosher.jpg" alt="falafel" width="300px" height="300px">
+                    <img src="./assets/media/images/kosher.jpg" alt="falafel" width="250px" height="250px">
                     <h4>Kosher</h4>
                 </div>
                 <div class="image">
-                    <img src="./assets/media/images/anything_goes.jpg" alt="ramen with chicken and asparagus" width="300px" height="300px">
+                    <img src="./assets/media/images/anything_goes.jpg" alt="ramen with chicken and asparagus" width="250px" height="250px">
                     <h4>Anything Goes</h4>
                 </div>
             </div>
         </div>
-        <div>
+        <div id="plans">
             <h1>Choose Plan</h1>
+                <input type="radio" id="3-7" name="radio"/>
+                <label for="rad">3 daily meals - 7 days</label><br>
+                <input type="radio" id="3-5" name="radio"/>
+                <label for="rad">3 daily meals - 5 days</label><br>
+                <input type="radio" id="rad" name="radio"/>
+                <label for="rad">2 daily meals - 7 days</label><br>
+                <input type="radio" id="rad" name="radio"/>
+                <label for="rad">2 daily meals - 5 days</label><br>
         </div>
-        <div>
+        <div id="login">
             <button>Sign UP</button>
             <button>Login</button>
         </div>
