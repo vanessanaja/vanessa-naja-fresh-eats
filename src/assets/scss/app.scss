@@ -20,6 +20,7 @@ header {
     background-position: center;
     padding: 30px;
     background-color: $third-color;
+    text-align: center;
 }
 
 input   {
@@ -27,15 +28,19 @@ input   {
     margin: 7px;
 }
 
+ul  {
+    padding-inline-start: 10px;
+}
+
 li  {
-    list-style: none;;
+    list-style: none;
 }
 
 nav li {
-    display: inline-block;
+    // display: inline-block;
     background-color: $primary-color;
     border: 1px solid #000;
-    padding: 15px;
+    padding: 4px;
     border-radius: 3px;
 }
 
@@ -105,6 +110,13 @@ div h4 {
     }
 }
 
+@media screen and (min-width:552px) {
+    nav li {
+        display: inline-block;
+        padding: 10px;
+    }
+}
+
 @media screen and (min-width:680px) {
     #menu {
       display: flex;
@@ -161,6 +173,22 @@ div h4 {
         width: 60%;
     }
   }
+
+  @media screen and (min-width:1200px){
+    .image img {
+        min-width:100%;
+        height: auto;
+        margin-left: 6px;
+        }
+    }
+
+    @media screen and (min-width:1336px){
+        .image img {
+            min-width:100%;
+            height: auto;
+            margin-left: 3px;
+            }
+        }
 
 #plans  {
     display: block;
