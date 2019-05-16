@@ -1,6 +1,12 @@
 This is an assignment from Codetalk.
 
-We were asked to build a site for a fictional client with the following guidelines:
+We were asked to build a site for a fictional client.
+
+I used Webpack with Scss for this project.
+
+I did complete the bonus tasks as well.
+
+Guidelines:
 
 fresh-eats
 Assignment: Design and code a one-page client website Client: Fresh Eats
