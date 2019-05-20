@@ -4,9 +4,9 @@ $third-color: #e8f6d9;
 
 body { 
     font-family: 'Montserrat', sans-serif;
-}
-p {
-    font-family: 'Merriweather', serif;
+    p {
+        font-family: 'Merriweather', serif;
+    }
 }
 header {
     background-image: url(../media/images/lettuce2.jpg);
@@ -46,39 +46,12 @@ header {
         }
     }
 }
-h2 {
-    width: 100%;
-    text-align: center;
-}
-input   {
-    display: inline-block;
-    margin: 7px;
-}
-
-button  {
-    background-color: $secondary-color;
-    border: 1px solid #000;
-    margin: 10px;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-button:hover {
-    background-color: $primary-color;
-}
-
-label  {
-    font-weight: 700;
-}
-
 .container {
     display: flex;
     width: 100%;
     flex-wrap: wrap;
     .how-it-works {
-        flex-wrap: wrap;
         padding: 50px;
-        width: 100%;
         background-color: $primary-color;   
         @media screen and (min-width:1200px){
             width: 40%;
@@ -104,6 +77,10 @@ label  {
         margin: 0px;
         background-color: $secondary-color;
         font-family: 'Montserrat', sans-serif;
+        h2 {
+            width: 100%;
+            text-align: center;
+        }
         @media screen and (min-width:680px){
           display: flex;
           flex-direction: row;
@@ -144,6 +121,23 @@ label  {
     background-color: $third-color;
     text-align: center;
     list-style: none;
+    input   {
+        display: inline-block;
+        margin: 7px;
+    }
+    label  {
+        font-weight: 700;
+    }
+}
+button  {
+    background-color: $secondary-color;
+    border: 1px solid #000;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    &:hover {
+        background-color: $primary-color;
+    }
 }
 .login {
     display: block;
